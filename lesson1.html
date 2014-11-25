@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="bootstrap.css"
+		<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+		<link rel="stylesheet" href="lesson1.css">
+	</head>
+	<title>HTML with HTML</title>
+	<body>
+		<div class="nav nav-pills">
+			<div class="container">
+				<ul class="nav nav-pills">
+					<li id="home"><a href="home.html">Home</a></li>
+					<li id="lesson1"><a href="lesson1.html">Lesson 1</a></li>
+					<li id="lesson2"><a href="#">Lesson 2</a></li>
+					<li id="lesson3"><a href="#">Lesson 3</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="text-center">
+			<script>
+				var OSName="Unknown OS";
+				if (navigator.appVersion.indexOf("Win")!=-1) OSName="Windows";
+				if (navigator.appVersion.indexOf("Mac")!=-1) OSName="Mac";
+				if (navigator.appVersion.indexOf("X11")!=-1) OSName="UNIX";
+				if (navigator.appVersion.indexOf("Linux")!=-1) OSName="Linux";
+				document.write('Your operating system has been determined as '+OSName +'. If this is incorrect, you may not get the correct instructions.');
+			</script>
+			<script type="text/javascript">
+				function Mac(){
+					document.write("This is the Mac instructions");
+				}
+			</script>
+			<script type="text/javascript">
+				function Windows(){
+					document.write("Alright, before you start making a webpage, you need to get a text editor. Notepad will work, but I don't recommend it. You should check out ");
+					document.write("<a href=\"http://www.google.com\">Visit Google</a>");
+				}
+			</script>
+		</div>
+		<div class="text-center">
+			<h1>Lesson 1: Prerequisites</h1>
+				<script>
+					if (OSName=="Mac") {
+    					Mac()
+					} else if (OSName=="Windows") { 
+    					Windows()
+					}
+        		</script>
+		</div>
+	</body>

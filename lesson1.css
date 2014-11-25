@@ -1,0 +1,18 @@
+.nav a {
+  color: black;
+  font-size: 17px;
+  text-transform: uppercase;
+  max-width: 115;
+  text-align: center;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav {
+  color: inherit;
+  background-color: #B2B8B8;
+  margin-bottom: 10px;
+}
+
