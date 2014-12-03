@@ -69,3 +69,39 @@ document.getElementById("lesson6").firstChild.innerHTML="Lesson 6";
 document.getElementById("lesson6").firstChild.style.fontSize = "17px";
 document.getElementById("lesson6").firstChild.style.maxWidth = "115px";
 }
+
+function mouseOverLesson7() {
+document.getElementById("lesson7").firstChild.innerHTML = "Lesson to be determined";
+document.getElementById("lesson7").firstChild.style.maxWidth = "113px";
+document.getElementById("lesson7").firstChild.style.fontSize = "10px";
+}
+
+function mouseOutLesson7() {
+document.getElementById("lesson7").firstChild.innerHTML="Lesson 7";
+document.getElementById("lesson7").firstChild.style.fontSize = "17px";
+document.getElementById("lesson7").firstChild.style.maxWidth = "115px";
+}
+
+function mouseOverLesson8() {
+document.getElementById("lesson8").firstChild.innerHTML = "Lesson to be determined";
+document.getElementById("lesson8").firstChild.style.maxWidth = "113px";
+document.getElementById("lesson8").firstChild.style.fontSize = "10px";
+}
+
+function mouseOutLesson8() {
+document.getElementById("lesson8").firstChild.innerHTML="Lesson 8";
+document.getElementById("lesson8").firstChild.style.fontSize = "17px";
+document.getElementById("lesson8").firstChild.style.maxWidth = "115px";
+}
+
+function mouseOverLesson9() {
+document.getElementById("lesson9").firstChild.innerHTML = "Lesson to be determined";
+document.getElementById("lesson9").firstChild.style.maxWidth = "113px";
+document.getElementById("lesson9").firstChild.style.fontSize = "10px";
+}
+
+function mouseOutLesson9() {
+document.getElementById("lesson9").firstChild.innerHTML="Lesson 9";
+document.getElementById("lesson9").firstChild.style.fontSize = "17px";
+document.getElementById("lesson9").firstChild.style.maxWidth = "115px";
+}
