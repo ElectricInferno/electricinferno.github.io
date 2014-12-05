@@ -7,45 +7,26 @@
 	</head>
 	<title>HTML with HTML</title>
 	<body>
+	<script src="navbar.js"></script>
 		<div class="nav nav-pills">
 			<div class="container">
 				<ul class="nav nav-pills">
-					<li id="home"><a href="index.html">Home</a></li>
-					<li id="lesson1"><a href="lesson1.html">Lesson 1</a></li>
-					<li id="lesson2"><a href="#">Lesson 2</a></li>
-					<li id="lesson3"><a href="#">Lesson 3</a></li>
+					<li id="home" onmouseover="mouseOverHome()" onmouseout="mouseOutHome()"><a href="index.html">Home</a></li>
+					<li id="lesson1" onmouseover="mouseOverLesson1()" onmouseout="mouseOutLesson1()"><a href="lesson1.html">Lesson 1</a></li>
+					<li id="lesson2" onmouseover="mouseOverLesson2()" onmouseout="mouseOutLesson2()"><a href="#">Lesson 2</a></li>
+					<li id="lesson3" onmouseover="mouseOverLesson3()" onmouseout="mouseOutLesson3()"><a href="#">Lesson 3</a></li>
+					<li id="lesson4" onmouseover="mouseOverLesson4()" onmouseout="mouseOutLesson4()"><a href="#">Lesson 4</a></li>
+					<li id="lesson5" onmouseover="mouseOverLesson5()" onmouseout="mouseOutLesson5()"><a href="#">Lesson 5</a></li>
+					<li id="lesson6" onmouseover="mouseOverLesson6()" onmouseout="mouseOutLesson6()"><a href="#">Lesson 6</a></li>
+					<li id="lesson7" onmouseover="mouseOverLesson7()" onmouseout="mouseOutLesson7()"><a href="#">Lesson 7</a></li>
+					<li id="lesson8" onmouseover="mouseOverLesson8()" onmouseout="mouseOutLesson8()"><a href="#">Lesson 8</a></li>
+					<li id="lesson9" onmouseover="mouseOverLesson9()" onmouseout="mouseOutLesson9()"><a href="#">Lesson 9</a></li>
 				</ul>
 			</div>
 		</div>
 		<div class="text-center">
-			<script>
-				var OSName="Unknown OS";
-				if (navigator.appVersion.indexOf("Win")!=-1) OSName="Windows";
-				if (navigator.appVersion.indexOf("Mac")!=-1) OSName="Mac";
-				if (navigator.appVersion.indexOf("X11")!=-1) OSName="UNIX";
-				if (navigator.appVersion.indexOf("Linux")!=-1) OSName="Linux";
-				document.write('Your operating system has been determined as '+OSName +'. If this is incorrect, you may not get the correct instructions.');
-			</script>
-			<script type="text/javascript">
-				function Mac(){
-					document.write("This is the Mac instructions");
-				}
-			</script>
-			<script type="text/javascript">
-				function Windows(){
-					document.write("Alright, before you start making a webpage, you need to get a text editor. Notepad will work, but I don't recommend it. You should check out ");
-					document.write("<a href=\"http://www.google.com\">Visit Google</a>");
-				}
-			</script>
-		</div>
-		<div class="text-center">
 			<h1>Lesson 1: Prerequisites</h1>
-				<script>
-					if (OSName=="Mac") {
-    					Mac()
-					} else if (OSName=="Windows") { 
-    					Windows()
-					}
-        		</script>
+			<p>Alright, before you start making your webpage, you need to grab a text editor. Mac users, Textedit WILL NOT work. I would recommend TextWrangler on the Mac App Store  or Sublime Text at SublimeText.com. Windows users, you guys have a lot more choices, so I would just peek around the web for one that you like. I use Notepad++ from Notepad-Plus-Plus.org. Once you have that downloaded and/or installed, go ahead and open it. The following pictures accompaning this tutorial will be in Notepad++, but its about the same for every editor.</p>
+			<p>Once the program has opened, you should be presented with a blank document. If you are presented with a screen that has other buttons like "Open" or "New", click "New". If you need more assistance starting your editor, consult the help pages online, or in the program. Go ahead and add "<!DOCTYPE html>" to the top line of the document. This is going to tell the computer that this is a html document. Go to line 2, and type in "<html>". This tells the computer that this is the start of the HTML code. Press enter to go down another line, and press tab. This should go forward on the line. Then, type "<head>". This is the start of the "head" element. The cursor should go straight down, not back to the beginning of the line. If it does, simply press tab again to get back where you where. Then press tab AGAIN to go forward again.<p>
 		</div>
 	</body>

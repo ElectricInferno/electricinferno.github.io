@@ -1,9 +1,11 @@
 .nav a {
   color: black;
-  font-size: 17px;
+  font-size: 14px;
   text-transform: uppercase;
-  max-width: 120px;
+  max-width: 98px;
+  max-height: 41px;
   text-align: center;
+  margin-left: 10px;
 }
 
 .nav li {
@@ -27,11 +29,6 @@
 .row {
 	margin-left: 20px;
 	margin-right: 20px;
-}
-
-.openmenu {
-	max-width: 125px;
-	font-size: 10px;
 }
 
 .about {
