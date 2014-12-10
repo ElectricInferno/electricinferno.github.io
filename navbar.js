@@ -29,7 +29,7 @@ document.getElementById("lesson3").firstChild.style.fontSize = "14px"
 }
 
 function mouseOverLesson4() {
-document.getElementById("lesson4").firstChild.innerHTML = "Hyperlinks";
+document.getElementById("lesson4").firstChild.innerHTML = "Blue hyperlinks";
 document.getElementById("lesson4").firstChild.style.fontSize = "9px"
 }
 
