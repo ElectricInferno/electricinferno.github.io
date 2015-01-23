@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    	<script type="text/javascript" src="https://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/alphabet.js"></script>
+		<link rel="stylesheet" href="bootstrap.css"
+		<link href="https://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+		<link rel="stylesheet" href="companion.css">
+		<link rel="stylesheet" href="navbar.css">
+	</head>
+	<title>HTML with HTML</title>
+	<body>
+		<div id="nav">
+		    <div id="nav_wrapper">
+		        <ul>
+		            <li><a href="home.html">Home</a></li>
+		            <li> <a href="aboutme.html">About Me</a></li>
+					<li> <a href="companion.html">Desktop Companion</a></li>
+		            <li> <a href="textlessons.html">Text Lessons</a>
+						<ul>
+							<li><a href="textlesson1.html">Lesson 1</a></li>
+							<li><a href="textlesson2.html">Lesson 2</a></li>
+							<li><a href="textlesson3.html">Lesson 3</a></li>
+						</ul>
+		            </li>
+					<li> <a href="#">Video Lessons</a>
+		                <ul>
+		                	<li><a href="#">Lesson 1</a></li>
+		                    <li><a href="#">Lesson 2</a></li>
+		                    <li><a href="#">Lesson 3</a></li>
+						</ul>
+					</li>
+		        </ul>
+		    </div>
+		</div>
+		<script src="popups.js"></script>
+		<h1>HTML with HTML Desktop Companion</h1>
+		<p>For those people who learn better by doing, rather than reading, I offer a desktop companion to Macintosh computers. This is a BETA release, so some features may change and functionality may be removed and added. The package will be updated every week.</p>
+		<div class="col-md-4">
+			<img src="1.png" width="354.66666666" height="177.33333333">
+		</div>
+		<div class="col-md-4">
+			<img src="2.png" width="354.66666666" height="200">
+		</div>
+		<div class="col-md-4">
+			<img src="3.png" width="354.66666666" height="177.33333333">
+		</div>
+		<div class="col-md-12">
+			<h2>Coming soon:</h2>
+			<p>Auto Updating!</p>
+			<p>Personalized profiles!</p>
+			<p>Achievements!</p>
+			<h2>Download:</h2>
+			<div id="canDownload">
+				<p>Since you have a Mac, you are able to run this program! Click the download button below to get the file and start learning! If you find any <a href="mailto:carter0906@gmail.com?subject=Desktop%20Companion%20Bug%20Report">bugs</a>, <a href="mailto:carter0906@gmail.com?subject=Desktop%20Companion%20Spelling%20Error">spelling errors</a>, or just have a <a href="mailto:carter0906@gmail.com?subject=Desktop%20Companion%20Feature%20Request">feature request</a>, just click on the associated link.</p>
+				<div class="downbutton">
+					<a href="https://www.dropbox.com/s/4qip6duxgg09giw/HTML%20with%20HTML%20Desktop%20Companion.app.zip?dl=1"><img id="canDownload" src="downloadbutton.png"></a>
+				</div>
+			</div>
+			<p id="cantDownload">Sadly, your computer is not compatible with the desktop companion. Consider getting a Mac to run this program!</p>
+			<script>checkDownload()</script>
+		</div>
+	</body>
+</html>

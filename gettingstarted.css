@@ -1,0 +1,13 @@
+h3 {
+	max-width: 30%;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+p {
+	max-width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 2%;
+	text-align: center;
+}

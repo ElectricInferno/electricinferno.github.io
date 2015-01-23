@@ -1,0 +1,25 @@
+.col-md-4 {
+	text-align: center;
+	display: block;
+}
+
+p {
+	text-align: center;
+	display: block;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+.downbutton {
+	width: 180px;
+	height: 180px;
+	position: absolute;
+	left: 50%;
+	margin-left: -90px;
+}
